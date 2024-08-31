@@ -1,5 +1,9 @@
+<!DOCTYPE html>
+<html lang="en_US">
 <?php require "layout/header.php"; ?>
 
-
-lets go there
+<body>
+  lets go there
 </body>
+
+</html>
