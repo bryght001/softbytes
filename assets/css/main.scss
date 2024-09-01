@@ -1,0 +1,6 @@
+@use 'base/index' as i;
+
+
+body {
+  background-color: i.$backgroundColor;
+}
