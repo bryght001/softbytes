@@ -6,8 +6,6 @@
   <title>Welcome to Softbytes: Your Software Solutions</title>
   <!---css links for softbytes begins at this point-->
   <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="assets/css/head.css" />
-  <link rel="stylesheet" href="assets/css/footer.css" />
   <!---favicom for softbytes-->
   <link rel="favicom" href="fabicon.ico" />
 </head>
