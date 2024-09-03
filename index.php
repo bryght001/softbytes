@@ -2,8 +2,8 @@
 <html lang="en_US">
 <?php require "layout/header.php"; ?>
 
-<body>
-  <h1>body of the website stays here.</h1>
+
+<h1>body of the website stays here.</h1>
 
 </body>
 
