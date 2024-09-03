@@ -1,7 +1,2 @@
+@use "sass:map";
 @use 'base/index' as i;
-
-
-body {
-  background-color: i.$backgroundColor;
-  color: i.$textColor;
-}

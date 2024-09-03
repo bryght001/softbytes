@@ -1,6 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   color: #499EC1;
+}
+
+nav {
+  display: flex;
+  padding: 1em;
+  background-color: rgba(61, 101, 33, 0.5);
+  z-index: 2;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0.6em;
+}
+nav ul li {
+  margin: 0.5em;
+}
+nav ul li a {
+  text-decoration: none;
+}
+@media (max-width: 320px) {
+  nav ul {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

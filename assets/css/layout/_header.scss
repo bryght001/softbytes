@@ -1,0 +1,29 @@
+@use "../base/mediwqueries" as m;
+@use "../base/color" as c;
+
+
+nav {
+  display: flex;
+  padding: 1em;
+  background-color: rgba(mix(c.$headerBgColor, #000, 50%), .5);
+  z-index: 2;
+
+  ul {
+    list-style: none;
+    display: flex;
+    padding: 0.6em;
+
+
+    li {
+      margin: 0.5em;
+
+      a {
+        text-decoration: none;
+      }
+    }
+
+    @include m.mediaqueries(smallphones) {
+      display: none;
+    }
+  }
+}
