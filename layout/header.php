@@ -12,7 +12,7 @@
 
 <body>
   <nav>
-    <div class="brandLogo" id="brandLpgo"><img src="../assets/imgs/headLogo.png" /></div>
+    <div class="brandLogo" id="brandLogo"><img src="assets/imgs/headLogo.png" alt="Softbytes"></div>
     <ul class="primary_navigation" id="primary_navigation flex">
       <li><a href="index.php">Home</a></li>
       <li><a href="#aboutus">About Us</a< /li>
@@ -21,4 +21,5 @@
       <li><a href="#testimonial">Testimonials</a></li>
       <li><a href="#contactus">Contact Us</a></li>
     </ul>
+    <div>menu button here</div>
   </nav>
