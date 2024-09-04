@@ -6,6 +6,7 @@
   <title>Welcome to Softbytes: Your Software Solutions</title>
   <!---css links for softbytes begins at this point-->
   <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   <!---favicom for softbytes-->
   <link rel="favicom" href="favicon.ico" />
 </head>
@@ -21,5 +22,5 @@
       <li><a href="#testimonial">Testimonials</a></li>
       <li><a href="#contactus">Contact Us</a></li>
     </ul>
-    <div>menu button here</div>
+    <div><span class="material-symbols-outlined">menu</span></div>
   </nav>
