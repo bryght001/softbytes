@@ -12,6 +12,7 @@
 
 <body>
   <nav>
+    <div class="brandLogo" id="brandLpgo"><img src="../assets/imgs/headLogo.png" /></div>
     <ul class="primary_navigation" id="primary_navigation flex">
       <li><a href="index.php">Home</a></li>
       <li><a href="#aboutus">About Us</a< /li>
