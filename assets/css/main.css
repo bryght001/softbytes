@@ -13,13 +13,13 @@ nav {
   display: flex;
   gap: 2rem;
   padding: 1em;
-  background-color: rgba(61, 101, 33, 0.5);
+  background-color: rgba(141, 209, 94, 0.8);
   z-index: 2;
 }
 nav .brandLogo {
-  margin: 0.5em;
-  width: 10px;
-  height: 5px;
+  margin: 1.5em;
+  width: 5px;
+  height: 3px;
   Object-fit: cover;
 }
 nav ul {
@@ -33,7 +33,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
 }
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   nav ul {
     display: none;
   }

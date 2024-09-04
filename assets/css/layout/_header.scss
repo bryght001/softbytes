@@ -6,13 +6,13 @@ nav {
   display: flex;
   gap: 2rem;
   padding: 1em;
-  background-color: rgba(mix(c.$headerBgColor, #000, 50%), .5);
+  background-color: rgba(mix(c.$headerBgColor, #ffffff, 85%), .8);
   z-index: 2;
 
   .brandLogo {
-    margin: .5em;
-    width: 10px;
-    height: 5px;
+    margin: 1.5em;
+    width: 5px;
+    height: 3px;
     Object-fit: cover;
   }
 

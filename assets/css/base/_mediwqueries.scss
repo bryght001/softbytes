@@ -9,7 +9,7 @@ $breakpoints: (
 @mixin mediaqueries($key) {
   $size: map-get($breakpoints, $key);
 
-  @media (max-width: $size) {
+  @media (min-width: $size) {
     @content;
   }
 }
