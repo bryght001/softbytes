@@ -4,9 +4,17 @@
 
 nav {
   display: flex;
+  gap: 2rem;
   padding: 1em;
   background-color: rgba(mix(c.$headerBgColor, #000, 50%), .5);
   z-index: 2;
+
+  .brandLogo {
+    margin: .5em;
+    width: 10px;
+    height: 5px;
+    Object-fit: cover;
+  }
 
   ul {
     list-style: none;

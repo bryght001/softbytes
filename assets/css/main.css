@@ -11,9 +11,16 @@ body {
 
 nav {
   display: flex;
+  gap: 2rem;
   padding: 1em;
   background-color: rgba(61, 101, 33, 0.5);
   z-index: 2;
+}
+nav .brandLogo {
+  margin: 0.5em;
+  width: 10px;
+  height: 5px;
+  Object-fit: cover;
 }
 nav ul {
   list-style: none;
