@@ -22,5 +22,5 @@
       <li><a href="#testimonial">Testimonials</a></li>
       <li><a href="#contactus">Contact Us</a></li>
     </ul>
-    <div><span class="material-symbols-outlined">menu</span></div>
+    <div class="hamburger" id="hamburger"><span class="material-symbols-outlined">menu</span></div>
   </nav>
