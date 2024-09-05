@@ -7,12 +7,14 @@ nav {
   gap: 2rem;
   padding: 1em;
   background-color: rgba(mix(c.$headerBgColor, #ffffff, 85%), .8);
+  object-fit: cover;
+  justify-content: space-between;
   z-index: 2;
 
   .brandLogo {
-    margin: 1.5em;
-    width: 5px;
-    height: 3px;
+    margin: 0.5em;
+    max-width: 5px;
+    height: 100%;
     Object-fit: cover;
   }
 
