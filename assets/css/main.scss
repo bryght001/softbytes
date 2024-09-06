@@ -1,17 +1,2 @@
 @use "sass:map";
 @use 'base/index' as i;
-
-hamburger {
-  .material-symbols-outlined {
-    font-variation-settings:
-      'FILL' 0,
-      'wght' 400,
-      'GRAD' 0,
-      'opsz' 24;
-  }
-
-  @include i.mediaqueries(laptops) {
-    display: none;
-  }
-
-}

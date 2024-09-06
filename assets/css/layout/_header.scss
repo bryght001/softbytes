@@ -5,7 +5,7 @@
 nav {
   display: flex;
   padding: 1em;
-  background-color: rgba(mix(c.$headerBgColor, #ffffff, 85%), .8);
+  background-color: rgba(mix(c.$headerBgColor, #ffffff, 95%), .9);
   align-items: center;
   justify-content: space-between;
   z-index: 2;
@@ -17,7 +17,7 @@ nav {
     Object-fit: cover;
   }
 
-  ul {
+  .primary_navigation {
     list-style: none;
     display: flex;
     padding: 0.6em;
@@ -38,5 +38,26 @@ nav {
     @include m.mediaqueries(laptops) {
       display: flex;
     }
+  }
+
+  hamburger {
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 1,
+        'wght' 600,
+        'GRAD' 0,
+        'opsz' 24;
+      font-size: 7rem;
+      color: c.$headerTextColor;
+
+      @include m.mediaqueries(laptops) {
+        display: none;
+
+
+      }
+
+    }
+
+
   }
 }
