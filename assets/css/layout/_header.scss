@@ -25,7 +25,8 @@ nav {
 
 
     li {
-      margin: 0.5em;
+      margin-inline-end: 0.75em;
+      ;
 
       a {
         text-decoration: none;
@@ -38,17 +39,23 @@ nav {
 
     @include m.mediaqueries(laptops) {
       display: flex;
+      font-size: 1.3em;
     }
   }
 
-  .material-symbols-outlined {
+  .hamburger
+
+  /**.material-symbols-outlined **/
+    {
     font-variation-settings:
       'FILL' 1,
       'wght' 600,
       'GRAD' 0,
       'opsz' 24;
-    font-size: 7rem;
-    color: c.$headerTextColor;
-  }
 
+
+    @include m.mediaqueries(laptops) {
+      display: none;
+    }
+  }
 }
