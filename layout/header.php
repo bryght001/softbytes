@@ -13,7 +13,10 @@
 
 <body>
   <nav>
-    <div class="brandLogo" id="brandLogo"><img src="assets/imgs/headLogo.png" alt="Softbytes"></div>
+    <div class="brandLogo" id="brandLogo">
+      <img src="assets/imgs/headLogo.png" alt="Softbytes">
+    </div>
+
     <ul class="primary_navigation" id="primary_navigation flex">
       <li><a href="index.php">Home</a></li>
       <li><a href="#aboutus">About Us</a< /li>
@@ -22,5 +25,8 @@
       <li><a href="#testimonial">Testimonials</a></li>
       <li><a href="#contactus">Contact Us</a></li>
     </ul>
-    <div class="hamburger" id="hamburger"><span class="material-symbols-outlined">menu</span></div>
+
+    <div class="hamburger" id="hamburger">
+      <span class="material-symbols-outlined">menu</span>
+    </div>
   </nav>
