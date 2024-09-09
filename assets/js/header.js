@@ -1,12 +1,12 @@
-const hamburger = document.querySelectorAll('.hamburger');
-const close = document.querySelectorAll(".closeMenu");
+let openHam = document.querySelector("#hamburger");
+let closeHam = document.querySelector("#closeMenu");
+let navigationItems = document.querySelector("#primary_navigation");
 
-hamburger.forEach(item => {
-  item.addEventListener('mouseover', function(e) {
-    e.target.style.backgroundColor = '#ff0000';
-  });
+const hamburgerEvent = (navigation, close, open) => {
+    navigationItems.style.display = navigation;
+    closeHam.style.display = close;
+    openHam.style.display = open;
+};
 
-  item.addEventListener('click', function(e) {
-    e.target.style.color = '#00ff00';
-  });
-});
+openHam.addEventListener('click', () => hamburgerEvent("block", "block", "none"));
+closeHam.addEventListener('click', () => hamburgerEvent("none", "none", "block"));

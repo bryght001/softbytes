@@ -5,6 +5,7 @@
 nav {
   display: flex;
   padding: 1em;
+  position: relative;
   margin: auto;
   background-color: c.$headerTextColor;
   align-items: center;
@@ -19,14 +20,23 @@ nav {
     Object-fit: cover;
   }
 
+  /**styling the navigation lists**/
   .primary_navigation {
+    background-color: #000000;
     list-style: none;
-    display: flex;
-    padding: 0.6em;
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: #ff7834;
+    right: 0;
+    width: 50%;
+    height: 80%;
+    padding: 1em;
+    margin: auto;
 
 
     li {
-      margin-inline-end: 0.75em;
+      margin-inline-end: 1.75em;
       ;
 
       a {
@@ -50,10 +60,21 @@ nav {
       'wght' 600,
       'GRAD' 0,
       'opsz' 24;
+    cursor: pointer;
 
 
     @include m.mediaqueries(laptops) {
       display: none;
     }
+
   }
+
+  .closeMenu {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+
 }

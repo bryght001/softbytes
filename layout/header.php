@@ -20,7 +20,7 @@
 
 
     <!---This is the navigation menu--->
-    <ul class="primary_navigation" id="primary_navigation flex">
+    <ul class="primary_navigation" id="primary_navigation">
       <li><a href="index.php">Home</a></li>
       <li><a href="#aboutus">About Us</a< /li>
       <li><a href="#services">Services</a></li>

@@ -12,11 +12,13 @@ body {
 nav {
   display: flex;
   padding: 1em;
+  position: relative;
   margin: auto;
   background-color: #ffffff;
   align-items: center;
   justify-content: space-between;
   z-index: 1;
+  /**styling the navigation lists**/
 }
 nav .brandLogo {
   width: 100%;
@@ -25,12 +27,20 @@ nav .brandLogo {
   Object-fit: cover;
 }
 nav .primary_navigation {
+  background-color: #000000;
   list-style: none;
-  display: flex;
-  padding: 0.6em;
+  display: block;
+  position: absolute;
+  top: 0;
+  background-color: #ff7834;
+  right: 0;
+  width: 50%;
+  height: 80%;
+  padding: 1em;
+  margin: auto;
 }
 nav .primary_navigation li {
-  margin-inline-end: 0.75em;
+  margin-inline-end: 1.75em;
 }
 nav .primary_navigation li a {
   text-decoration: none;
@@ -48,11 +58,19 @@ nav .primary_navigation li a {
 }
 nav .hamburger {
   font-variation-settings: "FILL" 1, "wght" 600, "GRAD" 0, "opsz" 24;
+  cursor: pointer;
 }
 @media (min-width: 1200px) {
   nav .hamburger {
     display: none;
   }
+}
+nav .closeMenu {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  top: 15px;
+  right: 15px;
 }
 
 /*# sourceMappingURL=main.css.map */
