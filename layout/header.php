@@ -13,10 +13,13 @@
 
 <body>
   <nav>
+    <!--Branr Logo goes in first--->
     <div class="brandLogo" id="brandLogo">
       <img src="assets/imgs/headLogo.png" alt="Softbytes">
     </div>
 
+
+    <!---This is the navigation menu--->
     <ul class="primary_navigation" id="primary_navigation flex">
       <li><a href="index.php">Home</a></li>
       <li><a href="#aboutus">About Us</a< /li>
@@ -26,7 +29,14 @@
       <li><a href="#contactus">Contact Us</a></li>
     </ul>
 
+
+    <!-- hambusger menuopen icon stays hete. Omce clicked the menu liat shows on mobile devices-->
     <div class="hamburger" id="hamburger">
       <span class="material-symbols-outlined">menu</span>
+    </div>
+
+    <!--Menu closed buttom follows for closing the menu on mobile devices-->
+    <div class="closeMenu" id="closeMenu">
+      <span class="material-symbols-outlined">close</span>
     </div>
   </nav>

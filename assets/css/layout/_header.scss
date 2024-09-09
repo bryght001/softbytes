@@ -5,6 +5,7 @@
 nav {
   display: flex;
   padding: 1em;
+  margin: auto;
   background-color: c.$headerTextColor;
   align-items: center;
   justify-content: space-between;
@@ -43,10 +44,7 @@ nav {
     }
   }
 
-  .hamburger
-
-  /**.material-symbols-outlined **/
-    {
+  .hamburger {
     font-variation-settings:
       'FILL' 1,
       'wght' 600,

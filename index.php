@@ -5,6 +5,17 @@
 
 <h1>body of the website stays here.</h1>
 
+
+
+
+
+
+
+
+
+
+
+<script src="assets/js/header.js"></script>
 </body>
 
 </html>
