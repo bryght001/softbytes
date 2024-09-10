@@ -27,20 +27,21 @@ nav .brandLogo {
   Object-fit: cover;
 }
 nav .primary_navigation {
-  background-color: #000000;
   list-style: none;
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 0;
-  background-color: #ff7834;
+  background-color: rgba(121, 201, 65, 0.5);
+  backdrop-filter: blur(0.5rem);
   right: 0;
-  width: 50%;
-  height: 80%;
-  padding: 1em;
-  margin: auto;
+  width: 60%;
+  max-height: 100vh;
+  padding: 1vh, 0.5rem;
 }
 nav .primary_navigation li {
-  margin-inline-end: 1.75em;
+  margin: auto;
+  padding: min(2vh, 3rem);
 }
 nav .primary_navigation li a {
   text-decoration: none;
