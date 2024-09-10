@@ -5,8 +5,10 @@
 }
 
 body {
-  background-color: #ffffff;
-  color: #499EC1;
+  background-color: #000f24;
+  color: #79C942;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
 }
 
 nav {
@@ -35,16 +37,30 @@ nav .primary_navigation {
   background-color: rgba(121, 201, 65, 0.5);
   backdrop-filter: blur(0.5rem);
   right: 0;
-  width: 60%;
-  max-height: 100vh;
-  padding: 1vh, 0.5rem;
+  width: 70%;
+  height: 100vh;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  align-items: center;
+  padding-top: 5em;
 }
 nav .primary_navigation li {
-  margin: auto;
-  padding: min(2vh, 3rem);
+  margin: 1.2em;
+  color: #499EC1;
 }
 nav .primary_navigation li a {
   text-decoration: none;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 4em;
+  padding-right: 4em;
+}
+nav .primary_navigation li a:hover {
+  color: #ffffff;
+  background-color: #499EC1;
+}
+nav .primary_navigation li a:visited {
+  color: #ffffff;
 }
 @media (min-width: 320px) {
   nav .primary_navigation {

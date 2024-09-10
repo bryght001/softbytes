@@ -1,4 +1,6 @@
 @use "color" as c;
+@use "typography" as t;
+
 
 * {
   padding: 0;
@@ -8,5 +10,7 @@
 
 body {
   background-color: c.$backgroundColor;
-  color: c.$textColor;
+  color: c.$mainTextColor;
+  font-family: t.$fontFamily;
+  font-weight: map-get(t.$fontWeight, modNormal);
 }

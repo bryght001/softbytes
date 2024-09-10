@@ -1,5 +1,6 @@
 @use "../base/mediwqueries" as m;
 @use "../base/color" as c;
+@use "../base/typography" as t;
 
 
 nav {
@@ -7,7 +8,7 @@ nav {
   padding: 1em;
   position: relative;
   margin: auto;
-  background-color: c.$headerTextColor;
+  background-color: c.$headerBgColor;
   align-items: center;
   justify-content: space-between;
   z-index: 1;
@@ -30,18 +31,37 @@ nav {
     background-color: rgba(c.$footerColor, .5);
     backdrop-filter: blur(0.5rem);
     right: 0;
-    width: 60%;
-    max-height: 100vh;
-    padding: (1vh, .5rem);
+    width: 70%;
+    height: 100vh;
+    font-family: t.$fontFamily;
+    font-weight: map-get(t.$fontWeight, lowBold);
+    align-items: center;
+    padding-top: 5em;
 
 
     li {
-      margin: auto;
-      padding: min(2vh, 3rem);
+      margin: 1.2em;
+      color: c.$headerTextColor;
+
 
       a {
         text-decoration: none;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        padding-left: 4em;
+        padding-right: 4em;
       }
+
+      a:hover {
+        color: c.$footerTextColor;
+        background-color: c.$headerTextColor;
+      }
+
+      a:visited {
+        color: c.$footerTextColor;
+
+      }
+
     }
 
     @include m.mediaqueries(smallphones) {
