@@ -2,8 +2,9 @@
 <html lang="en_US">
 <?php require "layout/header.php"; ?>
 
-
-<h1>body of the website stays here.</h1>
+<section clasd="aboutus" id="aboutus">
+  <h1 class="heroHeader" id="heroHeader">We develop superb softwares and websites for your business.</h1>
+</section>
 
 
 
