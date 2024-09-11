@@ -1,16 +1,2 @@
 @use "sass:map";
 @use 'base/index' as i;
-
-
-.aboutus {
-  .heroHeader {
-    font-family: i.$fontFamily;
-    font-size: 45px
-  }
-
-  p#para1,
-  p#para2,
-  p#para3 {
-    color: #ffffff;
-  }
-}
