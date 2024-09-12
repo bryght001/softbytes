@@ -1,2 +1,24 @@
 @use "sass:map";
 @use 'base/index' as i;
+
+.aboutus {
+  padding: 1.2em;
+
+  .heroHeader {
+    color: i.$heroTextH1Color;
+    font-size: 40px;
+    text-wrap: balance;
+  }
+
+  #heroParagraph1,
+  #heroParagraph2 {
+    font-weight: map-get(i.$fontWeight, boldNormal);
+    margin-top: .2em;
+  }
+
+  #heroParagraph3 {
+    margin-top: .2em;
+    color: i.$heroTextH1Color;
+    text-wrap: pretty;
+  }
+}

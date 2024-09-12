@@ -90,4 +90,23 @@ nav .closeMenu {
   right: 15px;
 }
 
+.aboutus {
+  padding: 1.2em;
+}
+.aboutus .heroHeader {
+  color: #ffffff;
+  font-size: 40px;
+  text-wrap: balance;
+}
+.aboutus #heroParagraph1,
+.aboutus #heroParagraph2 {
+  font-weight: 500;
+  margin-top: 0.2em;
+}
+.aboutus #heroParagraph3 {
+  margin-top: 0.2em;
+  color: #ffffff;
+  text-wrap: pretty;
+}
+
 /*# sourceMappingURL=main.css.map */
