@@ -21,4 +21,14 @@
     color: i.$heroTextH1Color;
     text-wrap: pretty;
   }
+
+
+  .projectButton {
+    margin-top: .2em;
+    border: 1.5px solid i.$heroTextH1Color;
+    padding: .5em;
+    text-align: center;
+    align-items: center;
+    width: 45%;
+  }
 }
