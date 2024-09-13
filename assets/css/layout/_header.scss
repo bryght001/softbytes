@@ -80,6 +80,7 @@ nav {
       'wght' 600,
       'GRAD' 0,
       'opsz' 24;
+    color: c.$headerTextColor;
     cursor: pointer;
 
 
@@ -90,6 +91,7 @@ nav {
   }
 
   .closeMenu {
+    color: c.$headerTextColor;
     cursor: pointer;
     display: none;
     position: absolute;

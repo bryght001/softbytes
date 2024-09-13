@@ -12,7 +12,7 @@
 
 
   <div class="projectButton">
-    <h6>View Our Projects</h6>
+    <h5>View Our Projects</h5><span class="material-symbols-outlined">tactic</span>
   </div>
 </section>
 

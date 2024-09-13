@@ -75,6 +75,7 @@ nav .primary_navigation li a:visited {
 }
 nav .hamburger {
   font-variation-settings: "FILL" 1, "wght" 600, "GRAD" 0, "opsz" 24;
+  color: #499EC1;
   cursor: pointer;
 }
 @media (min-width: 1200px) {
@@ -83,6 +84,7 @@ nav .hamburger {
   }
 }
 nav .closeMenu {
+  color: #499EC1;
   cursor: pointer;
   display: none;
   position: absolute;
@@ -110,11 +112,13 @@ nav .closeMenu {
 }
 .aboutus .projectButton {
   margin-top: 0.2em;
+  display: flex;
   border: 1.5px solid #ffffff;
   padding: 0.5em;
   text-align: center;
   align-items: center;
-  width: 45%;
+  width: 55%;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
