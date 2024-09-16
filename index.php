@@ -41,6 +41,7 @@
     </div>
     <div class="serviceFour" id="serviceFour">
       <h3>Branding</h3>
+      <p>From logo creatiom to crafting a unique brand identity we are here for you to give you the best and meet you exact needs amd more</p>
     </div>
   </div>
 </section>
