@@ -14,3 +14,8 @@ body {
   font-family: t.$fontFamily;
   font-weight: map-get(t.$fontWeight, modNormal);
 }
+
+section {
+  padding: 1.2em;
+  padding-top: 2em;
+}

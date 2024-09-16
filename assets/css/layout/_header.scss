@@ -13,11 +13,9 @@ nav {
   justify-content: space-between;
   z-index: 1;
 
-  .brandLogo {
-    //margin: 0.5em;
-    width: 100%;
-    max-width: 5px;
-    height: auto;
+  .brandLogo img {
+    max-width: 100%;
+    height: 30px;
     Object-fit: cover;
   }
 
@@ -25,19 +23,7 @@ nav {
   .primary_navigation {
     list-style: none;
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 0;
-    background-color: rgba(c.$footerColor, .5);
-    backdrop-filter: blur(0.5rem);
-    right: 0;
-    width: 70%;
-    height: 100vh;
-    font-family: t.$fontFamily;
-    font-weight: map-get(t.$fontWeight, lowBold);
-    align-items: center;
-    padding-top: 5em;
-
+    color: c.$headerTextColor;
 
     li {
       margin: 1.2em;
@@ -66,12 +52,19 @@ nav {
 
     @include m.mediaqueries(smallphones) {
       display: none;
+      position: absolute;
+      top: 0;
+      background-color: rgba(c.$footerColor, .5);
+      backdrop-filter: blur(0.5rem);
+      right: 0;
+      width: 70%;
+      height: 100vh;
+      font-family: t.$fontFamily;
+      font-weight: map-get(t.$fontWeight, lowBold);
+      align-items: center;
+      padding-top: 5em;
     }
 
-    @include m.mediaqueries(laptops) {
-      display: flex;
-      font-size: 1.3em;
-    }
   }
 
   .hamburger {

@@ -1,5 +1,5 @@
 <meta name="viewport" content="width=device-width, iniial-scale=1.0">
-<meta name="author" content="Bright Nwabunwene">
+<meta name="author" content="bryte">
 <meta name="description" content="Full digital marketing and software development agency">
 
 <head>
@@ -18,7 +18,7 @@
   <nav>
     <!--Branr Logo goes in first--->
     <div class="brandLogo" id="brandLogo">
-      <img src="assets/imgs/headLogo.png" alt="Softbytes">
+      <img src="assets/imgs/logo.png" alt="Softbytes">
     </div>
 
 

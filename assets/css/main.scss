@@ -6,31 +6,43 @@
 
   .heroHeader {
     color: i.$heroTextH1Color;
-    font-size: 55px;
+    font-size: 60px;
     text-wrap: balance;
+    background: -webkit-linear-gradient(#eee, #87C5EA);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
-  #heroParagraph1,
-  #heroParagraph2 {
+  #heroParagraph1 {
     font-weight: map-get(i.$fontWeight, boldNormal);
-    margin-top: .2em;
+    margin-top: .7em;
+    font-size: 25px;
+    color: i.$textColor;
+    text-transform: uppercase;
   }
 
   #heroParagraph3 {
-    margin-top: .2em;
+    margin-top: .7em;
     color: i.$heroTextH1Color;
     text-wrap: pretty;
+    font-size: 20px;
   }
 
 
   .projectButton {
-    margin-top: .2em;
+    margin-top: .7em;
     display: flex;
-    border: 1.5px solid i.$heroTextH1Color;
+    border: 1.5px solid i.$textColor;
     padding: .5em;
     text-align: center;
     align-items: center;
     width: 55%;
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .trusted {
+    text-align: center;
+    padding-top: 1.4em;
   }
 }
