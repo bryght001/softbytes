@@ -9,8 +9,8 @@
 }
 
 body {
-  background-color: c.$backgroundColor;
-  color: c.$mainTextColor;
+  background-color: c.$darkbackgroundColor;
+  color: c.$darkTextColor;
   font-family: t.$fontFamily;
   font-weight: map-get(t.$fontWeight, modNormal);
 }
