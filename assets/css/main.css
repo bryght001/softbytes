@@ -106,7 +106,7 @@ nav .closeMenu {
   font-weight: 500;
   margin-top: 0.7em;
   font-size: 25px;
-  color: #499EC1;
+  color: #fffff2;
   text-transform: uppercase;
 }
 .aboutus #heroParagraph3 {
@@ -118,7 +118,7 @@ nav .closeMenu {
 .aboutus .projectButton {
   margin-top: 0.7em;
   display: flex;
-  border: 1.5px solid #499EC1;
+  border: 1.5px solid #fffff2;
   padding: 0.5em;
   text-align: center;
   align-items: center;

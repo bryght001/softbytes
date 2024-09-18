@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: c.$darkbackgroundColor;
+  background-color: c.$darkBackgroundColor;
   color: c.$darkTextColor;
   font-family: t.$fontFamily;
   font-weight: map-get(t.$fontWeight, modNormal);

@@ -28,7 +28,7 @@
   <p>We are not just another agency but your path to exceptional web and software projects</p>
   <div class="serviceList" id="serviceList">
     <div class="serviceOne" id="serviceOne">
-      <h3>Software Developmemt</h3>
+      <h3>Software Development</h3>
       <p>Let help you handle your software development projects task. Do you have a problem that requires a complex software solution? We got you coveted from design to development, we only give the best.</p>
     </div>
     <div class="serviceTwo" id="serviceTwo">
@@ -37,11 +37,11 @@
     </div>
     <div class="serviceThree" id="serviceThree">
       <h3>Mobile App Development</h3>
-      <p>whether app drvelopment for Android devices or IOS devices, we got you covered with profesdiinal services. </p>
+      <p>whether app development for Android devices or IOS devices, we got you covered with profesdiinal services. </p>
     </div>
     <div class="serviceFour" id="serviceFour">
       <h3>Branding</h3>
-      <p>From logo creatiom to crafting a unique brand identity we are here for you to give you the best and meet you exact needs amd more</p>
+      <p>Let get this done and settled with.</p>
     </div>
   </div>
 </section>

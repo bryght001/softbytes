@@ -18,7 +18,7 @@
     font-weight: map-get(i.$fontWeight, boldNormal);
     margin-top: .7em;
     font-size: 25px;
-    color: i.$textColor;
+    color: i.$darkTextColor;
     text-transform: uppercase;
   }
 
@@ -33,7 +33,7 @@
   .projectButton {
     margin-top: .7em;
     display: flex;
-    border: 1.5px solid i.$textColor;
+    border: 1.5px solid i.$darkTextColor;
     padding: .5em;
     text-align: center;
     align-items: center;
